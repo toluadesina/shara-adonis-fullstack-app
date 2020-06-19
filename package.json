@@ -37,7 +37,8 @@
     "marked": "^1.1.0",
     "mysql": "^2.18.1",
     "node-sass": "4.14.1",
-    "stimulus": "^1.1.1"
+    "stimulus": "^1.1.1",
+    "url-parse": "^1.4.7"
   },
   "devDependencies": {
     "@babel/core": "7.10.2",
