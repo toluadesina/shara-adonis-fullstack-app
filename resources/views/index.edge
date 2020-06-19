@@ -1,0 +1,64 @@
+@layout('layouts.main')
+  
+  @section('main')
+ <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Turning Point for Singles Blog</h1>
+      <p>This forum is for all singles. We are here to raise singles after God's Heart, to teach lessons on integrity, morals and the core values inherent in Godly relationships.</p>
+      <p><a class="btn btn-primary btn-lg" href="https://www.facebook.com/groups/turningpointforsingles/" role="button">Learn more &raquo;</a></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Heading</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Heading</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+
+    <hr>
+    <h1 class="text-center m-5">SUBSCRIBE TO OUR WEEKLY POSTS</h1>
+		
+	</div>
+	<section id="newsletter">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h3>We'll love to be in touch</h3>
+                <p>If you'll like to ge the weekly posts delivered to your email directly, please enter your email address below to signup and we'll do well to send you weeky updates</p>
+            </div>
+        </div>
+      <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <form action="" method="POST" action="">
+
+                  {{csrfField()}}
+
+                  <div class="form-group">
+                    <input type="email" name="email" placeholder="Enter your Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" value="Subscribe">
+                  </div>
+                </form>
+            </div>
+      </div>
+        
+    </div>
+</section>
+  </div> <!-- /container -->
+  @endsection
